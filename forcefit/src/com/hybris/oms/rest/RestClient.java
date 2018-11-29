@@ -27,7 +27,6 @@ import com.sun.jersey.api.client.WebResource;
 
 public class RestClient {
 	static long lStartTime;
-	static String url = "http://10.10.76.59:8080/oms-ext-web/webresources/bucorders/allocateOrdreLine";
 	//https://omstmppprd.tataunistore.com/oms-ext-web/webresources/order/cancellable
 	//https://oms.tatacliq.com/oms-ext-web/webresources/order/cancellable
 	public static void main(final String[] args) throws Exception {
